@@ -9,7 +9,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 import { Mail, Send } from "lucide-react"
-import { toast, useSonner } from "sonner"
+import { toast } from "sonner"
 import emailjs from '@emailjs/browser'
 
 export default function ContactSection() {
@@ -32,8 +32,6 @@ const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
   })
 
   const [isSubmitting, setIsSubmitting] = useState(false)
-
-  const { toasts, } = useSonner()
 
   const handleSubmit = async (e: React.FormEvent) => {
   e.preventDefault()
@@ -107,7 +105,7 @@ const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
 
           <p className="text-xl text-gray-100 light:text-gray-900">
 
-            Have a question or want to work together? I'd love to hear from you!
+            Have a question or want to work together? Id love to hear from you!
 
           </p>
 
@@ -184,11 +182,11 @@ const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
 
                 <CardContent className="p-6">
 
-                  <h3 className="text-xl font-bold mb-2">Let's Build Something Amazing</h3>
+                  <h3 className="text-xl font-bold mb-2">Lets Build Something Amazing</h3>
 
                   <p className="opacity-90">
 
-                    Whether you have a project in mind or just want to chat about technology, I'm always excited to
+                    Whether you have a project in mind or just want to chat about technology, Im always excited to
 
                     connect with fellow developers and potential collaborators.
 

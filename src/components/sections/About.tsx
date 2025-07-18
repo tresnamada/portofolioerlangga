@@ -3,13 +3,11 @@
 import { motion } from "framer-motion"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { GraduationCap, MapPin, Trophy, Award, Medal, Star, Calendar, User, Code, Sparkles } from "lucide-react"
+import { GraduationCap, MapPin, Trophy, Award, Star, Calendar, User, Code, Sparkles } from "lucide-react"
 import Image from "next/image"
-import { image } from "framer-motion/client"
-import { useRouter } from "next/navigation"
 
 export default function AboutSection({ imageSrc }: { imageSrc?: string }) {
-  const router = useRouter()
+
 
   // Data sertifikat Anda
   const certificates = [
@@ -247,8 +245,8 @@ export default function AboutSection({ imageSrc }: { imageSrc?: string }) {
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div className="space-y-4">
                   <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg">
-                    Hi! I'm <span className="font-semibold text-blue-600 dark:text-blue-400">Erlangga</span>, but you
-                    can call me <span className="font-semibold text-purple-600 dark:text-purple-400">Elang</span>. I'm a
+                    Hi! Im <span className="font-semibold text-blue-600 dark:text-blue-400">Erlangga</span>, but you
+                    can call me <span className="font-semibold text-purple-600 dark:text-purple-400">Elang</span>. Im a
                     17-year-old aspiring developer from Semarang, passionate about creating engaging and functional user
                     experiences.
                   </p>
@@ -266,7 +264,7 @@ export default function AboutSection({ imageSrc }: { imageSrc?: string }) {
                     </div>
                   </div>
                   <p className="text-gray-700 dark:text-gray-300 text-sm">
-                    I believe good design isn't just about aesthetics, but how users interact with the product. I create
+                    I believe good design isn`t just about aesthetics, but how users interact with the product. I create
                     interfaces that are visually appealing, user-friendly, and accessible.
                   </p>
                 </div>
