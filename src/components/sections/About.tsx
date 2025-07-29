@@ -205,12 +205,10 @@ export default function AboutSection({ imageSrc }: { imageSrc?: string }) {
             >
               <div className="w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center shadow-2xl">
                 {imageSrc ? (
-                  <Image
-                    src={imageSrc}
+                  <img
+                    src="/elang.jpg"
                     alt="Profile Picture"
-                    width={192}
-                    height={192}
-                    className="rounded-full object-cover w-full h-full"
+                    className="rounded-full object-cover w-full h-full object-center"
                   />
                 ) : (
                   <User className="w-16 h-16 text-white" />

@@ -1,7 +1,6 @@
 "use client"
 
 import { motion } from "framer-motion"
-import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ArrowDown, Github, Linkedin, Instagram } from "lucide-react"
 import Link from "next/link"
@@ -17,12 +16,10 @@ export default function HomeSection() {
           className="relative mx-auto w-48 h-48"
         >
           <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 dark:from-blue-600 dark:to-purple-700 rounded-full animate-pulse"></div>
-          <Image
-            src="/cobak.jpg"
+          <img
+            src="/elang.jpg"
             alt="Erlangga Tresnamada Muliawan"
-            width={192}
-            height={192}
-            className="relative z-10 rounded-full border-4 border-white dark:border-gray-800 shadow-xl"
+            className="relative z-10 w-full h-full object-cover rounded-full border-4 border-white dark:border-gray-800 shadow-xl"
           />
         </motion.div>
 

@@ -20,15 +20,10 @@ const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
 
 
   const [formData, setFormData] = useState({
-
     name: "",
-
     email: "",
-
     subject: "",
-
     message: "",
-
   })
 
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -144,7 +139,7 @@ const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
 
                   <h3 className="font-semibold text-gray-800 dark:text-gray-100 mb-2">Email</h3>
 
-                  <p className="text-gray-600 dark:text-gray-300">erlangga.tresnamada@gmail.com</p>
+                  <p className="text-gray-600 dark:text-gray-300">tresnamada@gmail.com</p>
 
                 </div>
 
